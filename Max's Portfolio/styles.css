@@ -1,0 +1,131 @@
+/* css document */
+/* nav bar*/
+ul {list-style-type:none; margin: auto; padding:0; text-align:center;}
+li {display:inline-block;}
+li a {color:rgb(233, 128, 15); padding:5px; background-color:rgb(224, 86, 48); border-radius: 10%;}
+/* No underline for links*/
+a {text-decoration:none; font-size:20px;}
+
+h1 {color:rgb(233, 128, 15); background-color: rgba(0, 0, 0, .5); text-align:center;}
+
+h2 {color: rgb(233, 128, 15); background-color: rgba(0, 0, 0, .5); padding: 5px; margin:auto; text-align: center;}
+
+body {
+  background: rgb(205, 173, 116);
+  color: rgb(224, 86, 48);
+  font-family: Goudy Old-Style;
+  margin: 0;
+  padding: 0;
+
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 200px;
+}
+/* HEADER */
+header {
+  background-color: rgb(205, 173, 116);
+  background-image: url("Images/Beautiful\ Sunrise.JPG");
+  background-size: 100%;
+  background-position: center;
+  height: 400px;
+  padding: 20px;
+  text-align: center;
+}
+
+header a {
+  color: rgb(205, 173, 116);
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-top: 40px;
+}
+
+header .logo a {
+  background-size: 300px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 80px;
+  position: relative;
+  text-indent: -9999999px;
+  top: -30px;
+  width: 300px;
+}
+
+/* FOOTER */
+footer {
+  position: fixed;
+  bottom: 0;
+  background-color: #030303;
+  width: 100%;
+  height: 95px;    
+}  
+ 
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 5px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+footer {
+  background: rgb(0, 0, 0);
+  color: hwb(hue rgb(205, 173, 116) black) (0 50% 50%);
+  font-size: 20px;
+  padding: 20px 20px;
+  text-align: center;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  border-radius: 50%;
+  width: 4%;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  border-radius: 50%;
+  width: 4%;
+}
+/*Instagram*/
+.fa-instagram {
+  background: #125688;
+  color: white;
+  border-radius: 50%;
+  width: 4%;
+}
+/*snapchat*/
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  border-radius: 50%;
+  width: 4%;
+}
